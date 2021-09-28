@@ -1,0 +1,12 @@
+{
+    "productos": [{
+        "nombre": "COCACOLA",
+        "categoria": "BEBIDA",
+        "precio": 4500
+    }, {
+        "nombre": "MALTA",
+        "categoria": "BEBIDA",
+        "precio": 3000
+    }],
+    "categorias": ["BEBIDAS", "GALLETAS"]
+}

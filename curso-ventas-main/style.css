@@ -1,0 +1,53 @@
+body {
+    padding-top: 25px;
+}
+
+#menu {
+    width: 450px;
+    margin: 0 auto;
+}
+
+#menu div {
+    display: inline;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#menu div:hover {
+    font-weight: bold;
+}
+
+button {
+    width: 120px;
+    display: block;
+    margin: 10px auto;
+}
+
+.panel {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 450px;
+    margin: 0 auto;
+    display: none;
+}
+
+#panelHome {
+    display: block;
+}
+
+.btnAtras {
+    border-radius: 15px;
+}
+
+.categoria {
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 15px;
+    height: 35px;
+    padding: 0px 25px;
+    margin: 10px auto;
+}
+
+.categoria button {
+    float: right;
+}
