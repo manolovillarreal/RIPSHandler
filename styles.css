@@ -1,11 +1,56 @@
-
-
-.fileRow{
-    font-size: 22px;
+.fileRow {
+  font-size: 22px;
 }
-.btn-div{
-    display: inline;
-    cursor: pointer;
+.btn-div {
+  display: inline;
+  cursor: pointer;
+}
+
+#drop_zone {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%2372BDFFFF' stroke-width='4' stroke-dasharray='15%2c 15%2c 1' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 5px;
+  color: rgb(146, 146, 146);
+  font-size: large;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.draggingInEffect {
+  cursor: crosshair;
+}
+
+#ripsDataContainer {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding-top: 10px; /* espacio para los encabezados */
+}
+
+.nav-tabs {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+  margin-bottom: 0;
+}
+#tabData{
+  overflow-y: scroll;
+  height: 600px;
+}
+
+#nav-pagination{
+  overflow-y: auto;
+}
+ion-icon {
+  color: rgb(61, 145, 255) !important;
+}
+
+.btnToggleView {
+  margin-left: auto;
+}
+.hidden {
+  display: none !important;
 }
 
 

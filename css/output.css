@@ -1,0 +1,59 @@
+/* Estilo general para la sección de archivos */
+.file-section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para los encabezados de archivo */
+  .file-section h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  /* Estilo para el icono de colapsar/expandir */
+  .toggle-icon {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  /* Estilo para los mensajes de resultado */
+  .result p {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  /* Estilo para la lista de errores */
+  .result ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #d9534f;
+  }
+  
+  /* Estilo para cada error individual */
+  .result li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f8d7da;
+    border-left: 5px solid #d9534f;
+    border-radius: 3px;
+  }
+  
+  /* Estilo para el contenido colapsado */
+  .collapse.show {
+    display: block;
+  }
+  
+  .collapse.hide {
+    display: none;
+  }
+  
